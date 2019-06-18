@@ -1,3 +1,14 @@
 <resources>
     <string name="app_name">MakeYourAppMaterial</string>
+
+    <string name="tim_hortons_wiki">
+        Tim Hortons Inc. (known as Tim Hortons Cafe and Bake Shop in some countries) is a fast food restaurant chain, specializing in coffee and donut items. It is Canada\'s largest quick service restaurant chain; as of December 31, 2018, it had a total of 4,846 restaurants in 14 countries. The company has its headquarters in Toronto. \n\n
+The company was founded in 1964 in Hamilton, Ontario, by Canadian hockey player Tim Horton (1930–1974) and Jim Charade (1934–2009), after an initial venture in hamburger restaurants. In 1967, Horton partnered with investor Ron Joyce (1930–2019), who assumed control over operations after Horton died in 1974. Joyce expanded the chain into a multibillion-dollar franchise. Charade left the organization in 1966 and briefly returned in 1970 and 1993 through 1996.\n\n
+On August 26, 2014, Burger King agreed to purchase Tim Hortons for US$11.4 billion;  the chain became a subsidiary of the Canadian holding company Restaurant Brands International, which is majority-owned by Brazilian investment firm 3G Capital, on December 15, 2014. Since then, quality has decreased drastically according to public opinion and the company has dropped in reputation.
+    </string>
+
+    <string name="tim_hortons">Tim Hortons</string>
+    <string name="tim_hortons_content_desc">Tim Hortons Image</string>
+    <string name="fab_content_desc">Floating Action Button</string>
+    <string name="scroll_activity">scroll activity</string>
 </resources>
