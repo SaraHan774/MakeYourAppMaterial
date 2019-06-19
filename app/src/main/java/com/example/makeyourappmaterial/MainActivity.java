@@ -3,10 +3,11 @@ package com.example.makeyourappmaterial;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.ImageButton;
-import android.widget.ScrollView;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
@@ -16,6 +17,7 @@ public class MainActivity extends AppCompatActivity {
 
     FloatingActionButton floatingActionButton;
     ImageButton imageButton;
+    TextView tv_newFont;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -26,6 +28,11 @@ public class MainActivity extends AppCompatActivity {
         imageButton = findViewById(R.id.custom_fab);
 
         setClickListenerToFabs();
+
+        //setting custom font to the TextView
+        tv_newFont = findViewById(R.id.tv_new_font);
+        Typeface PatuaOne = Typeface.createFromAsset(this.getAssets(), "PatuaOne-Regular.ttf");
+        tv_newFont.setTypeface(PatuaOne);
 
     }
 
@@ -42,4 +49,6 @@ public class MainActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ScrollActivity.class);
         startActivity(intent);
     }
+
+
 }
