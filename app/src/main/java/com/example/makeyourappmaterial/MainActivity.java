@@ -70,29 +70,21 @@ public class MainActivity extends AppCompatActivity {
 
     public void onFrameClick(View view){
         if(imageExists){
-            slideImageUpOnClick();
+            enableSlideEffect();
+            img_animation_example.setVisibility(View.INVISIBLE);
             imageExists = false;
         }else{
-            slideImageDownOnClick();
+            enableSlideEffect();
+            img_animation_example.setVisibility(View.VISIBLE);
             imageExists = true;
         }
     }
 
-    private void slideImageUpOnClick(){
+    private void enableSlideEffect(){
         Slide slide = new Slide();
         slide.setSlideEdge(Gravity.TOP);
         ViewGroup viewGroup = findViewById(android.R.id.content);
         TransitionManager.beginDelayedTransition(viewGroup, slide);
-        img_animation_example.setVisibility(View.INVISIBLE);
-    }
-
-
-    private void slideImageDownOnClick(){
-        Slide slide = new Slide();
-        slide.setSlideEdge(Gravity.TOP);
-        ViewGroup viewGroup = findViewById(android.R.id.content);
-        TransitionManager.beginDelayedTransition(viewGroup, slide);
-        img_animation_example.setVisibility(View.VISIBLE);
     }
 
 }
