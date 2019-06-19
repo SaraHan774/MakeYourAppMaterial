@@ -66,6 +66,11 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    public void navigateToAnimationActivity(View view){
+        Intent intent = new Intent(this, AnimationActivity.class);
+        startActivity(intent);
+    }
+
     private static boolean imageExists = true;
 
     public void onFrameClick(View view){

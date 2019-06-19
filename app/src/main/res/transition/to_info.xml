@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <changeBounds android:duration="250">
+        <targets android:targetId="@id/img_painting">
+        </targets>
+    </changeBounds>
+
+    <fade android:duration="500"
+        android:startDelay="300">
+        <targets>
+            <target android:targetId="@id/tv_content_desc"/>
+            <target android:targetId="@id/img_btn_info"/>
+        </targets>
+    </fade>
+    <!--tv_content_title, tv_artist_name-->
+
+    <changeBounds android:duration="250">
+        <targets>
+            <target android:targetId="@id/tv_content_title"/>
+            <target android:targetId="@id/tv_artist_name"/>
+        </targets>
+    </changeBounds>
+
+</transitionSet>

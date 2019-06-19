@@ -8,6 +8,7 @@
     <color name="primaryLightColor">#e5ffff</color>
     <color name="primaryDarkColor">#81b9bf</color>
     <color name="primaryTextColor">#000000</color>
+    <color name="accentTextColor">#EE7753</color>
 
     <color name="freshGreen">#08db83</color>
 </resources>

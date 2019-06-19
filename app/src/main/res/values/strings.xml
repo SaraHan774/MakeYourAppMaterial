@@ -13,8 +13,17 @@ On August 26, 2014, Burger King agreed to purchase Tim Hortons for US$11.4 billi
     <string name="tim_hortons">Tim Hortons</string>
     <string name="tim_hortons_content_desc">Tim Hortons Image</string>
     <string name="fab_content_desc">Floating Action Button</string>
-    <string name="scroll_activity">scroll activity</string>
-    <string name="scrim_activity">scrim activity</string>
+
+    <string name="scroll_activity">scroll</string>
+    <string name="scrim_activity">scrim</string>
+    <string name="animation_activity">animation</string>
+
+    <string name="renoir_painting_name">Luncheon of the Boating Party, 1880-1881</string>
+    <string name="renoir_painting_desc">
+        When the time came for the fourth Impressionist exhibition to be held in 1878, Renoir refused to participate. This is because he began to draw inspiration from Classical sources, and as a result, his figures became more defined, and his work in general became more structured. This painting is one of Renoir\'s earliest works to reflect these changes. It depicts diners at the Maison Fournaise, a restaurant on an island in the Seine that was popular with artists. In the painting, you can see collector Charles Ephrussi, painter Gustave Caillebotte, poet Jules Laforgue, and Renoir’s future wife Aline Charigot. It is now part of the Phillips Collection in Washington DC.
+    </string>
+    <string name="renoir_name">Pierre-Auguste Renoir</string>
+
     <string name="title_activity_scrim">ScrimActivity</string>
     <string name="large_text">
 What\'s in a name? Mountain lion, puma, cougar, panther—this cat is known by more names than just about any other mammal! But no matter what you call it, it’s still the same cat, Puma concolor, the largest of the small cat species. So how did it get so many names? Mostly because it has such a large range, and people from different countries have called it different things.\n\n
