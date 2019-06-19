@@ -5,8 +5,13 @@ import androidx.appcompat.app.AppCompatActivity;
 import android.content.Intent;
 import android.graphics.Typeface;
 import android.os.Bundle;
+import android.transition.Slide;
+import android.transition.TransitionManager;
+import android.view.Gravity;
 import android.view.View;
+import android.view.ViewGroup;
 import android.widget.ImageButton;
+import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -18,6 +23,7 @@ public class MainActivity extends AppCompatActivity {
     FloatingActionButton floatingActionButton;
     ImageButton imageButton;
     TextView tv_newFont;
+    ImageView img_animation_example;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,6 +39,9 @@ public class MainActivity extends AppCompatActivity {
         tv_newFont = findViewById(R.id.tv_new_font);
         Typeface PatuaOne = Typeface.createFromAsset(this.getAssets(), "PatuaOne-Regular.ttf");
         tv_newFont.setTypeface(PatuaOne);
+
+        img_animation_example = findViewById(R.id.img_animation_example);
+
 
     }
 
@@ -57,5 +66,33 @@ public class MainActivity extends AppCompatActivity {
 
     }
 
+    private static boolean imageExists = true;
+
+    public void onFrameClick(View view){
+        if(imageExists){
+            slideImageUpOnClick();
+            imageExists = false;
+        }else{
+            slideImageDownOnClick();
+            imageExists = true;
+        }
+    }
+
+    private void slideImageUpOnClick(){
+        Slide slide = new Slide();
+        slide.setSlideEdge(Gravity.TOP);
+        ViewGroup viewGroup = findViewById(android.R.id.content);
+        TransitionManager.beginDelayedTransition(viewGroup, slide);
+        img_animation_example.setVisibility(View.INVISIBLE);
+    }
+
+
+    private void slideImageDownOnClick(){
+        Slide slide = new Slide();
+        slide.setSlideEdge(Gravity.TOP);
+        ViewGroup viewGroup = findViewById(android.R.id.content);
+        TransitionManager.beginDelayedTransition(viewGroup, slide);
+        img_animation_example.setVisibility(View.VISIBLE);
+    }
 
 }

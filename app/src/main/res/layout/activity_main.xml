@@ -58,7 +58,18 @@
             android:layout_margin="16dp"
             android:background="#fff"
             android:elevation="16dp"
-            />
+            android:onClick="onFrameClick"
+            >
+
+            <ImageView
+                android:id="@+id/img_animation_example"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:src="@drawable/googlelogo"
+                android:scaleType="centerCrop"
+                />
+
+        </FrameLayout>
 
 
         <com.google.android.material.floatingactionbutton.FloatingActionButton
