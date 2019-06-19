@@ -1,5 +1,8 @@
 <resources>
     <string name="app_name">MakeYourAppMaterial</string>
+    <string name="material_components">Material Components</string>
+    <string name="patua_one">Patua One</string>
+    <string name="puma_content_desc">Image of a Puma from Google</string>
 
     <string name="tim_hortons_wiki">
         Tim Hortons Inc. (known as Tim Hortons Cafe and Bake Shop in some countries) is a fast food restaurant chain, specializing in coffee and donut items. It is Canada\'s largest quick service restaurant chain; as of December 31, 2018, it had a total of 4,846 restaurants in 14 countries. The company has its headquarters in Toronto. \n\n
@@ -11,4 +14,16 @@ On August 26, 2014, Burger King agreed to purchase Tim Hortons for US$11.4 billi
     <string name="tim_hortons_content_desc">Tim Hortons Image</string>
     <string name="fab_content_desc">Floating Action Button</string>
     <string name="scroll_activity">scroll activity</string>
+    <string name="scrim_activity">scrim activity</string>
+    <string name="title_activity_scrim">ScrimActivity</string>
+    <string name="large_text">
+What\'s in a name? Mountain lion, puma, cougar, panther—this cat is known by more names than just about any other mammal! But no matter what you call it, it’s still the same cat, Puma concolor, the largest of the small cat species. So how did it get so many names? Mostly because it has such a large range, and people from different countries have called it different things.\n\n
+
+Early Spanish explorers of North and South America called it leon (lion) and gato monte (cat of the mountain), from which we get the name "mountain lion." “Puma” is the name the Incas gave this cat in their language. “Cougar” seems to have come from an old South American Indian word, cuguacuarana, which was shortened to cuguar and then spelled differently. And “panther” is a general term for cats that have solid-colored coats, so it was used for pumas as well as black jaguars. All of these names are considered correct, but scientists usually use the name puma. Here in Southern California they are commonly called mountain lions.\n\n
+
+You may have heard of the Florida panther. This is a subspecies of mountain lion that used to be found from Texas throughout the southeast but is now found only in southern Florida’s swamps. It is endangered, with only about 50 cats left, and conservation efforts are underway to try to save it.\n\n
+
+Mountain lions are generally a solid tawny color, with slightly darker hair on the back and a whitish underside. Those living in warm, humid areas tend to be a darker, reddish brown color, and mountain lions found in colder climates have thicker, longer hair that is almost silver-gray in color. Adult males weigh 40 to 60 percent more than adult females. Scientists classify the mountain lion as a small cat, as it does not roar but purrs like smaller cats do. Yet its slender body and calm demeanor are more like that of a cheetah; both cats would rather flee than fight, and both rarely confront humans.
+    </string>
+    <string name="action_settings">Settings</string>
 </resources>

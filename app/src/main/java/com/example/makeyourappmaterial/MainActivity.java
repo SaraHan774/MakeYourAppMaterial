@@ -50,5 +50,12 @@ public class MainActivity extends AppCompatActivity {
         startActivity(intent);
     }
 
+    public void navigateToScrimActivity(View view){
+
+        Intent intent = new Intent(this, ScrimActivity.class);
+        startActivity(intent);
+
+    }
+
 
 }

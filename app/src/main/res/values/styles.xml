@@ -9,10 +9,19 @@
     </style>
 
     <style name="MyStyle">
-        <item name = "android:textColor">@color/freshGreen</item>
-        <item name = "android:textStyle">bold</item>
+        <item name="android:textColor">@color/freshGreen</item>
+        <item name="android:textStyle">bold</item>
         <item name="android:textSize">40sp</item>
     </style>
+
+    <style name="NoActionBar" parent="Theme.AppCompat.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 
 
 </resources>

@@ -24,7 +24,7 @@
                 android:id="@+id/tv_style_sample"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Material Components"
+                android:text="@string/material_components"
                 android:layout_gravity="center"
                 android:textColor="@color/freshGreen"
                 android:textAppearance="@style/TextAppearance.MaterialComponents.Headline4"
@@ -43,12 +43,12 @@
                 android:id="@+id/tv_new_font"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Patua One"
+                android:text="@string/patua_one"
                 android:textSize="40sp"
                 android:layout_gravity="center"
                 android:textColor="@color/primaryDarkColor"
                 />
-            
+
         </FrameLayout>
 
 
@@ -94,12 +94,24 @@
 
             <Button
                 android:id="@+id/btn_navigate_to_scroll_Activity"
-                android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="@string/scroll_activity"
                 android:onClick="navigateToScrollActivity"
                 android:layout_margin="16dp"
+                android:layout_width="wrap_content"
+                style="?android:buttonBarButtonStyle"
                 />
+
+            <Button
+                android:id="@+id/btn_scrim_example"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/scrim_activity"
+                android:onClick="navigateToScrimActivity"
+                android:layout_margin="16dp"
+                style="?android:buttonBarButtonStyle"
+                />
+
 
 
 
