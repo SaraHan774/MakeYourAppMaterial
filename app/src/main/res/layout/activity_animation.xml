@@ -9,11 +9,12 @@
 
     <ImageView
         android:id="@+id/img_painting"
+        android:background="@drawable/fill_background_gradient"
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:src="@drawable/renoir_boating_party"
-        android:scaleType="centerCrop"
+        android:scaleType="centerInside"
         />
 
     <RelativeLayout

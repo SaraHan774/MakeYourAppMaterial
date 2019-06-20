@@ -2,6 +2,7 @@ package com.example.makeyourappmaterial;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+
 import android.graphics.Typeface;
 import android.os.Bundle;
 import android.transition.Scene;
@@ -32,21 +33,26 @@ public class AnimationActivity extends AppCompatActivity {
 
 
         img_btn_info.setOnClickListener(view ->
-                onClickImgBtn()
-                );
+                onStartTransition()
+        );
+
     }
 
-    private void onClickImgBtn(){
-        TransitionManager.go(Scene.getSceneForLayout(
+    Scene endingScene;
+
+    private void onStartTransition(){
+
+        endingScene = Scene.getSceneForLayout(
                 findViewById(android.R.id.content),
                 R.layout.activity_animation_show_more,
                 this
-        ));
+        );
 
+        Transition transition = TransitionInflater.from(this)
+                .inflateTransition(R.transition.to_info);
 
-        //TODO : keep showing default transition... not recognizing rsc/transition/to_info.xml file.
+        TransitionManager.go(endingScene, transition);
 
-//        TransitionInflater.from(this)
-//                .inflateTransition(R.transition.to_info);
     }
+
 }
